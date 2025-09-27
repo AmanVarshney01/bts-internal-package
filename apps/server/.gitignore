@@ -29,7 +29,7 @@ node_modules/
 .pnp.*
 
 # env
-.env*
+#.env*
 .env.production
 !.env.example
 .dev.vars
