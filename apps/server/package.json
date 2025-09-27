@@ -17,13 +17,8 @@
   "dependencies": {
     "dotenv": "^17.2.2",
     "zod": "^4.1.11",
-    "@trpc/server": "^11.6.0",
-    "@trpc/client": "^11.6.0",
     "@hono/trpc-server": "^0.4.0",
     "hono": "^4.9.9",
-    "drizzle-orm": "^0.44.5",
-    "@libsql/client": "^0.15.15",
-    "better-auth": "^1.3.18",
     "@my-better-t-app/api": "workspace:*",
     "@my-better-t-app/auth": "workspace:*",
     "@my-better-t-app/db": "workspace:*"
@@ -31,7 +26,6 @@
   "devDependencies": {
     "tsdown": "^0.15.5",
     "typescript": "^5.9.2",
-    "@types/bun": "^1.2.22",
-    "drizzle-kit": "^0.31.5"
+    "@types/bun": "^1.2.22"
   }
 }

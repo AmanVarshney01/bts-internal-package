@@ -1,22 +1,25 @@
 {
-  "name": "@my-better-t-app/api",
-  "main": "src/index.ts",
-  "type": "module",
-  "exports": {
-    "./*": "./src/*.ts"
-  },
-  "devDependencies": {
-    "@types/bun": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5"
-  },
-  "dependencies": {
-    "@my-better-t-app/auth": "workspace:*",
-    "@my-better-t-app/db": "workspace:*",
-    "@trpc/server": "^11.6.0",
-    "drizzle-orm": "^0.44.5",
-    "hono": "^4.9.8",
-    "zod": "^4.1.11"
-  }
+	"name": "@my-better-t-app/api",
+	"main": "src/index.ts",
+	"type": "module",
+	"exports": {
+		"./*": "./src/*.ts"
+	},
+	"scripts": {
+		"build": "tsdown --dts"
+	},
+	"devDependencies": {
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5"
+	},
+	"dependencies": {
+		"@my-better-t-app/auth": "workspace:*",
+		"@my-better-t-app/db": "workspace:*",
+		"@trpc/server": "^11.6.0",
+		"drizzle-orm": "^0.44.5",
+		"hono": "^4.9.8",
+		"zod": "^4.1.11"
+	}
 }
