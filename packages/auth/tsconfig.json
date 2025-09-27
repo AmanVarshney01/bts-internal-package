@@ -8,12 +8,9 @@
 			"@my-better-t-app/auth/*": [
 				"./src/*"
 			]
-		}
+		},
+		"types": [
+			"bun"
+		],
 	},
-	"include": [
-		"src/**/*.ts"
-	],
-	"exclude": [
-		"node_modules"
-	]
 }

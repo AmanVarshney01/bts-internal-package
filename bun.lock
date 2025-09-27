@@ -102,6 +102,7 @@
       },
       "devDependencies": {
         "@types/bun": "latest",
+        "@types/node": "^24.5.2",
         "drizzle-kit": "^0.31.5",
       },
       "peerDependencies": {

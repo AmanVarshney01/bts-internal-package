@@ -8,12 +8,9 @@
 			"@my-better-t-app/db/*": [
 				"./src/*"
 			]
-		}
-	},
-	"include": [
-		"src/**/*.ts"
-	],
-	"exclude": [
-		"node_modules"
-	]
+		},
+		"types": [
+			"bun"
+		],
+	}
 }
