@@ -1,10 +1,10 @@
 {
 	"name": "@my-better-t-app/api",
-	"main": "dist/index.js",
-	"type": "module",
 	"exports": {
-		"./*": "./src/*.ts"
+		".": "./dist/index.js",
+		"./*": "./dist/*.js"
 	},
+	"type": "module",
 	"scripts": {
 		"build": "tsdown"
 	},

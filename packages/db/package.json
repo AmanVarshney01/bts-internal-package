@@ -1,8 +1,8 @@
 {
 	"name": "@my-better-t-app/db",
-	"main": "dist/index.js",
 	"exports": {
-		"./*": "./src/*.ts"
+		".": "./dist/index.js",
+		"./*": "./dist/*.js"
 	},
 	"scripts": {
 		"build": "tsdown"

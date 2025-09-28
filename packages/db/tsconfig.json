@@ -3,12 +3,6 @@
 		"target": "ESNext",
 		"module": "ESNext",
 		"moduleResolution": "bundler",
-		"baseUrl": ".",
-		"paths": {
-			"@my-better-t-app/db/*": [
-				"./src/*"
-			]
-		},
 		"types": [
 			"bun"
 		],
