@@ -6,11 +6,12 @@
 		"./*": "./src/*.ts"
 	},
 	"scripts": {
-		"build": "tsdown --dts"
+		"build": "tsdown"
 	},
 	"devDependencies": {
 		"@types/bun": "latest",
-		"@types/node": "^24.5.2"
+		"@types/node": "^24.5.2",
+		"tsdown": "^0.15.5"
 	},
 	"peerDependencies": {
 		"typescript": "^5"

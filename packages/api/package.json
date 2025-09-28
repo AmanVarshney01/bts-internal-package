@@ -1,15 +1,16 @@
 {
 	"name": "@my-better-t-app/api",
-	"main": "src/index.ts",
+	"main": "dist/index.js",
 	"type": "module",
 	"exports": {
 		"./*": "./src/*.ts"
 	},
 	"scripts": {
-		"build": "tsdown --dts"
+		"build": "tsdown"
 	},
 	"devDependencies": {
-		"@types/bun": "latest"
+		"@types/bun": "latest",
+		"tsdown": "^0.15.5"
 	},
 	"peerDependencies": {
 		"typescript": "^5"
