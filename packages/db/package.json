@@ -5,7 +5,12 @@
 		"./*": "./dist/*.js"
 	},
 	"scripts": {
-		"build": "tsdown"
+		"build": "tsdown",
+		"db:local": "turso dev --db-file local.db",
+		"db:push": "drizzle-kit push",
+		"db:studio": "drizzle-kit studio",
+		"db:generate": "drizzle-kit generate",
+		"db:migrate": "drizzle-kit migrate"
 	},
 	"devDependencies": {
 		"@types/bun": "latest",

@@ -7,12 +7,7 @@
     "check-types": "tsc -b",
     "compile": "bun build --compile --minify --sourcemap --bytecode ./src/index.ts --outfile server",
     "dev": "bun run --hot src/index.ts",
-    "start": "bun run dist/index.js",
-    "db:local": "turso dev --db-file local.db",
-    "db:push": "drizzle-kit push",
-    "db:studio": "drizzle-kit studio",
-    "db:generate": "drizzle-kit generate",
-    "db:migrate": "drizzle-kit migrate"
+    "start": "bun run dist/index.js"
   },
   "dependencies": {
     "dotenv": "^17.2.2",
